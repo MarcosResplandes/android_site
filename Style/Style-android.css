@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body {
+    background-color: var(--cor1);
+    margin: 0px;
+}
+:root { /*Colors*/
+    --cor0: #818274;
+    --cor1: #A3AB78;
+    --cor2: #506266;
+    --cor3: #BDE038;
+    --cor4: #10454F;
+    --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+
+main {
+    max-width: 800px;
+    min-width: 320px;
+    padding: 18px;
+    background-color: white;
+    margin: auto;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.518);
+}
+
+main img.pequena {
+    max-width: 50%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: right;
+    background-color: var(--cor2);
+    padding: 5px;
+    text-align: center;
+    height: 60px;
+    box-shadow: 0px 1px 15px black;
+}
+.logo {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo > p {
+    margin-left: 50px;
+    font-size: 3em;
+    color: white;
+}
+
+.barra--menus {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.menu {
+    
+    width: 50px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.barra--menus >.menu:hover {
+    background-color: var(--cor1);
+    width: auto;
+    
+
+}
+
+main > p {
+    line-height: 8em;
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 8px;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 8px;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 2px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.289);
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    
+    
+}
+
+h1 {
+    margin: 25px 0px;
+}
+
+p {
+    margin: 10px 0px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.7em;
+    text-indent: 30px;
+}
+
+h2 {
+    margin: 20px 0px;
+
+}
+
+footer {
+    display: flex;
+    background-color: var(--cor2);
+    margin-top: 9px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer .marca {
+    
+}
